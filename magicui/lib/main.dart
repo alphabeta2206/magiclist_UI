@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:magicui/homepage.dart';
+import 'package:magicui/qrgenarate.dart';
+import 'package:magicui/xsepwindow.dart';
+import 'package:magicui/qrscanpage.dart';
+
 void main() => runApp(MAGICUI());
 class MAGICUI extends StatelessWidget {
   @override
@@ -14,9 +17,9 @@ class MAGICUI extends StatelessWidget {
           color: Colors.transparent,
           elevation: 0.0,
         ),
-        scaffoldBackgroundColor: Colors.transparent,
+        scaffoldBackgroundColor: Colors.white,
       ),
-      home: Homepage(),
+      home: ScanPage(),
     );
   }
 }

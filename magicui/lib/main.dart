@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:magicui/morse.dart';
 import 'package:magicui/qrgenarate.dart';
 import 'package:magicui/xsepwindow.dart';
 import 'package:magicui/qrscanpage.dart';
@@ -19,7 +20,7 @@ class MAGICUI extends StatelessWidget {
         ),
         scaffoldBackgroundColor: Colors.white,
       ),
-      home: ScanPage(),
+      home: Qrscan(),
     );
   }
 }

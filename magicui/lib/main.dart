@@ -20,7 +20,7 @@ class MAGICUI extends StatelessWidget {
         ),
         scaffoldBackgroundColor: Colors.white,
       ),
-      home: Qrscan(),
+      home: GeneratePage(),
     );
   }
 }

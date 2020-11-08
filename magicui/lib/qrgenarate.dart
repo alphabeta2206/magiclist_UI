@@ -37,6 +37,7 @@ class GeneratePageState extends State<GeneratePage> {
       ),
     );
   }
+  
   Future<void> _captureAndSharePng() async {
     try {
       RenderRepaintBoundary boundary = globalKey.currentContext.findRenderObject();
